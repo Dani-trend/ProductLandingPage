@@ -25,7 +25,7 @@ h1 {
     margin-top: 400px;
   }
   img {
-    border-image: url('..image/header.jpg');
+    border-image: url('..img/header.jpg');
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -111,7 +111,7 @@ h1 {
       }
   }
   .navbar nav{
-    color:red;
+    color:peru;
     float: inherit;
   }
   
