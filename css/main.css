@@ -1,0 +1,117 @@
+h1 {
+    color: purple;
+    text-align: center;
+    margin: -50px;
+  }
+  h4 {
+    text-align: center;
+    margin:15px;
+    color: purple;
+  }
+  
+  p {
+    text-align:center;
+    margin:35px;
+    color:purple;
+  }
+   
+  #header {
+    background: pink;
+    color: purple;
+    
+  }
+  
+  #form {
+    margin-top: 400px;
+  }
+  img {
+    border-image: url('..image/header.jpg');
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    height: 215px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+  
+  }
+  
+  
+  .firstRow {
+    height:500px;
+    color: #ffffff;
+    padding: 8%;
+  
+  }
+  .secondRow {
+    padding: 8%;
+  }
+  
+  
+  .thirdRow {
+    color: #000000;
+    text-align: center;
+    
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding:400;
+      
+  }
+  * {
+      box-sizing: border-box;
+  }
+  .columns {
+      float: left;
+      width: 33.3%;
+      padding: 2px;
+  }
+  .price {
+      list-style-type: none;
+      border: 5px solid #ffcc00;
+      border-radius: 10px;
+      margin: 0;
+      padding: 0;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+  }
+  .price .header {
+      background-color: #ffcc00;
+      color: white;
+      font-size: 20px;
+  }
+  
+  .price li {
+      border-bottom: 1px solid #ffcc00;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .price .yel {
+      background-color: #fff9ae;
+      font-size: 20px;
+  }
+  
+  .button {
+      background-color: blue;
+      border-radius: 10px;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      .columns {
+          width: 100%;
+      }
+  }
+  .navbar nav{
+    color:red;
+    float: inherit;
+  }
+  
